@@ -1,0 +1,29 @@
+{
+    "scope": "text.html meta.tag",
+    "completions":
+    [
+        "html",
+            { "trigger": "ko.data-bind", "contents": "data-bind=\"${1}\"" },
+            { "trigger": "ko.visible", "contents": "visible: " },
+            { "trigger": "ko.text", "contents": "text: " },
+            { "trigger": "ko.html", "contents": "html: " },
+            { "trigger": "ko.css", "contents": "css: " },
+            { "trigger": "ko.style", "contents": "style: " },
+            { "trigger": "ko.attr", "contents": "attr: { ${0:attr}: ${1:parameter} }" },
+            { "trigger": "ko.foreach", "contents": "foreach: " },
+            { "trigger": "ko.if", "contents": "if: " },
+            { "trigger": "ko.ifnot", "contents": "ifnot: " },
+            { "trigger": "ko.with", "contents": "with: " },
+            { "trigger": "ko.click", "contents": "click: " },
+            { "trigger": "ko.event", "contents": "event: " },
+            { "trigger": "ko.submit", "contents": "submit: " },
+            { "trigger": "ko.enable", "contents": "enable: " },
+            { "trigger": "ko.disable", "contents": "disable: " },
+            { "trigger": "ko.value", "contents": "value: " },
+            { "trigger": "ko.hasFocus", "contents": "hasFocus: " },
+            { "trigger": "ko.checked", "contents": "checked: " },
+            { "trigger": "ko.options", "contents": "options: " },
+            { "trigger": "ko.selectedOptions", "contents": "selectedOptions: " },
+            { "trigger": "ko.template", "contents": "template: name: '${0:name}' " }
+    ]
+}

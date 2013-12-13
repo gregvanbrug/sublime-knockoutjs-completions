@@ -1,0 +1,21 @@
+{
+    "scope": "source.js",
+    "completions":
+    [
+        "js",
+            { "trigger": "ko.observableArray", "contents": "ko.observableArray();" },
+            { "trigger": "ko.indexOf", "contents": "indexOf()" },
+            { "trigger": "ko.slice", "contents": "slice()" },
+            { "trigger": "ko.push", "contents": "push(${1})" },
+            { "trigger": "ko.pop", "contents": "pop()" },
+            { "trigger": "ko.unshift", "contents": "unshift(${1})" },
+            { "trigger": "ko.shift", "contents": "shift()" },
+            { "trigger": "ko.reverse", "contents": "reverse()" },
+            { "trigger": "ko.sort", "contents": "sort()" },
+            { "trigger": "ko.splice", "contents": "splice()" },
+            { "trigger": "ko.remove", "contents": "remove(${1})" },
+            { "trigger": "ko.removeAll", "contents": "removeAll(${1})" },
+            { "trigger": "ko.destroy", "contents": "destroy(${1})" },
+            { "trigger": "ko.destroyAll", "contents": "destroyAll(${1})" }
+    ]
+}

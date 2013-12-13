@@ -1,0 +1,15 @@
+{
+    "scope": "source.js",
+    "completions":
+    [
+        "js",
+            { "trigger": "ko.computed", "contents": "ko.computed(function(${1}){ ${2}});" },
+            { "trigger": "ko.dispose", "contents": "dispose()" },
+            { "trigger": "ko.extend", "contents": "extend({ ${1} })" },
+            { "trigger": "ko.getDependenciesCount", "contents": "getDependenciesCount()" },
+            { "trigger": "ko.getSubscriptionsCount", "contents": "getSubscriptionsCount()" },
+            { "trigger": "ko.isActive", "contents": "isActive()" },
+            { "trigger": "ko.peek", "contents": "peek()" },
+            { "trigger": "ko.subscribe", "contents": "subscribe(function(${1}){ ${2}})" }
+    ]
+}

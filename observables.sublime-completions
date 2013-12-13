@@ -1,0 +1,8 @@
+{
+    "scope": "source.js",
+    "completions":
+    [
+        "js",
+            { "trigger": "ko.observable", "contents": "ko.observable(${1});" }
+    ]
+}
