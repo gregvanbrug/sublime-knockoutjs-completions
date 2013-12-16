@@ -14,7 +14,7 @@ Start typing.
 
 ## Possible Issues
 
-If the autocomplete pop up doesn't show for some of the bindings, you may need to update your Sublime settings to allow autocompletion for text. Add the following to your User Setttins:
+If the autocomplete pop up doesn't show for some of the bindings, you may need to update your Sublime settings to allow autocompletion for text. Add the following to your User Settings:
 
     {
         "auto_complete_selector": "source, text",
