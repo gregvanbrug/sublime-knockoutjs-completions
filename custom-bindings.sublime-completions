@@ -3,6 +3,6 @@
     "completions":
     [
         "js",
-            { "trigger": "ko.bindingHandlers", "contents": "ko.bindingHandlers.${0:name} = {\n\tinit: function(element, valueAccessor, allBindings, viewModel, bindingContext) {\n\t},\n\tupdate: function(element, valueAccessor, allBindings, viewModel, bindingContext) {\n\t}\t\n};" }
+            { "trigger": "ko.bindingHandlers", "contents": "ko.bindingHandlers.${0:name} = {\n\tinit: function(element, valueAccessor, allBindings, bindingContext) {\n\t},\n\tupdate: function(element, valueAccessor, allBindings, viewModel, bindingContext) {\n\t}\t\n};" }
     ]
 }
